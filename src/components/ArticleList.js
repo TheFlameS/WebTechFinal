@@ -19,7 +19,7 @@ class ArticleList extends Component {
     })
   }
 
-  renderBooks() {
+  renderArticles() {
     return _.map(this.state.data.results, book => {
       return (
         <li className="list-group-item">
@@ -46,7 +46,7 @@ class ArticleList extends Component {
     return (
       <div>
         <ul className="list-group">
-          {this.renderBooks()}
+          {this.renderArticles()}
         </ul>
       </div>
     )
