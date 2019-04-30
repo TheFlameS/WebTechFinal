@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import _ from 'lodash';
 import axios from 'axios';
 
-class Header extends Component {
+class ArticleList extends Component {
 
   constructor(props){
     super(props)
@@ -53,4 +53,4 @@ class Header extends Component {
   }
 }
 
-export default Header
+export default ArticleList
